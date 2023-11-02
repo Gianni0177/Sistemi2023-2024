@@ -1,4 +1,4 @@
-public class App {
+public class Test {
     public static void main(String[] args) {
         
         //Da questo punto partirà l'esecuzione del thread principale
@@ -17,7 +17,7 @@ public class App {
         
         //Creo un nuovo thread e gli assegno delle istruzioni da eseguire
         Thread ts = new Thread(/* Passo un oggetto di una classe al cui interno è implementato il metodo RUN */);
-        
+
 
 
 
