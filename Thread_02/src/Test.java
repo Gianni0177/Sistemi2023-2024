@@ -16,8 +16,12 @@ public class Test {
         System.out.println(Thread.currentThread().getName());
         
         //Creo un nuovo thread e gli assegno delle istruzioni da eseguire
-        Thread ts = new Thread(/* Passo un oggetto di una classe al cui interno è implementato il metodo RUN */);
+        //Thread ts = new Thread(/* Passo un oggetto di una classe al cui interno è implementato il metodo RUN */);
 
+        //ThreadSecondario t2 = new ThreadSecondario();
+        //Thread ts = new Thread(t2);
+
+        Thread ts = new Thread(new ThreadSecondario()); 
 
 
 
