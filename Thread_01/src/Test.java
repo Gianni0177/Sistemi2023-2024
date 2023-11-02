@@ -21,6 +21,8 @@ public class Test {
 		
 		a++;
 		System.out.println("Valore aggiornato di a: " + a + " da: " + t.getName());
+
+		System.out.println("Caratterustiche Thread " + t.toString());
 		
 		
 		
